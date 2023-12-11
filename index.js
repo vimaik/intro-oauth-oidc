@@ -43,15 +43,5 @@ app.post("/token", (req, res) => {
     }
 });
 
-// app.post("/token", (req, res) => {
-//     res.send(`
-//       PORT: ${process.env.PORT}
-//       USERNAME: ${process.env.USERNAME}
-//       PASSWORD: ${process.env.PASSWORD}
-//       FULLNAME: ${process.env.FULLNAME}
-//       SECRET: ${process.env.SECRET}
-//     `);
-// });
-
 // Start the server
 app.listen(PORT, () => console.log(`🌐 Listening on http://localhost:${PORT}`));
